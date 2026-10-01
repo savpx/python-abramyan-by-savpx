@@ -41,5 +41,4 @@ for total_sum, cnt in sorted(sums_counts.items()):
     print(f'Сумма {total_sum:2d}: {cnt:5d} ({cnt / N_three * 100:5.2f}%) {bar}')
 most_frequent_sum = max(sums_counts, key=sums_counts.get)
 
-print('\n--- Результат повышенной сложности ---')
 print(f'Чаще всего выпадает сумма: **{most_frequent_sum}** (она выпала {sums_counts[most_frequent_sum]} раз)')
